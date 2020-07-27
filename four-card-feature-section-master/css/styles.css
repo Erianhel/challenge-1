@@ -1,0 +1,132 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(0, 0%, 98%);
+}
+
+header .contenedor-textos {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 20px;
+	padding: 15px;
+}
+
+div.contenedor-textos h1{
+	font-family: Poppins;
+	font-weight: 200;
+	font-size: 30px;
+	text-align: center;
+}
+
+div.contenedor-textos h2 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+}
+
+div.contenedor-textos p {
+	font-family: Poppins;
+	font-weight: 200;
+	font-size: 15px;
+	text-align: center;
+}
+
+section.contenedor {
+	width: 90%;
+	max-width: 1440px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.tarjetas {
+	width: 28%;
+	border: 3px solid hsl(0, 0%, 98%);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+	border-radius: 6px;
+	margin: 30px;
+}
+
+.cards {
+	width: 100%;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.tarjetas .cards img {
+	width: 25%;
+	vertical-align: bottom;
+	margin: 20px;
+}
+
+.text-cards h2 {
+	font-family: Poppins;
+	font-weight: 600;
+	margin: 10px;
+}
+
+.text-cards p {
+	font-family: Poppins;
+	font-weight: 200;
+	font-size: 15px;
+	padding: 0 10px;
+}
+
+div#card1 {
+	border-top: 4px solid hsl(180, 62%, 55%);
+	position: relative;
+	top: 110px;
+}
+
+div#card2 {
+	border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+div#card3 {
+	border-top: 4px solid hsl(212, 86%, 64%);
+	position: relative;
+	top: 110px;
+}
+
+div#card4 {
+	border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.attribution { font-size: 11px; text-align: center; padding: 5px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* -----MEDIA QUERIES-----*/
+
+@media screen and (max-width: 375px) {
+
+	div.contenedor-textos {
+		text-align: center;
+	}
+
+	div.contenedor {
+		width: 100%;
+	}
+
+	div.tarjetas {
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	div#card1, div#card3 {
+		position: static;
+		top: 0;
+	}
+}
