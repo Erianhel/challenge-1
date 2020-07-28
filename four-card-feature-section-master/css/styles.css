@@ -14,8 +14,8 @@ header .contenedor-textos {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin: 20px;
-	padding: 15px;
+	margin: 35px;
+	padding: 20px;
 }
 
 div.contenedor-textos h1{
@@ -23,6 +23,7 @@ div.contenedor-textos h1{
 	font-weight: 200;
 	font-size: 30px;
 	text-align: center;
+	color: hsl(234, 12%, 34%);
 }
 
 div.contenedor-textos h2 {
@@ -30,6 +31,7 @@ div.contenedor-textos h2 {
 	font-weight: 600;
 	font-size: 30px;
 	text-align: center;
+	color: hsl(234, 12%, 34%);
 }
 
 div.contenedor-textos p {
