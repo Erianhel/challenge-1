@@ -15,7 +15,7 @@ header .contenedor-textos {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin: 75px 0px 35px;
+	margin: 65px 0px 35px;
 	padding: 10px;
 }
 
@@ -41,6 +41,7 @@ div.contenedor-textos p {
 	font-weight: 200;
 	text-align: center;
 	color: hsl(229, 6%, 66%);
+	margin: 10px;
 }
 
 section.contenedor {
@@ -75,10 +76,11 @@ div.tarjetas {
 	margin: 20px;
 }
 
-.text-cards h3 {
+.text-cards h2 {
 	font-family: Poppins;
 	font-weight: 600;
 	margin: 10px;
+	color: hsl(234, 12%, 34%);
 }
 
 .text-cards p {
