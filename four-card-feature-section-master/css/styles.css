@@ -61,7 +61,6 @@ div.tarjetas {
 	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 	border-radius: 6px;
 	margin: 15px;
-	padding: 10px;
 }
 
 .cards {
@@ -93,7 +92,7 @@ div.tarjetas {
 div#card1 {
 	border-top: 4px solid hsl(180, 62%, 55%);
 	position: relative;
-	top: 110px;
+	top: 125px;
 }
 
 div#card2 {
@@ -103,7 +102,7 @@ div#card2 {
 div#card3 {
 	border-top: 4px solid hsl(212, 86%, 64%);
 	position: relative;
-	top: 110px;
+	top: 125px;
 }
 
 div#card4 {
