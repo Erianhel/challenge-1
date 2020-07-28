@@ -8,20 +8,21 @@
 
 body {
 	background-color: hsl(0, 0%, 98%);
+	font-size: 15px;
 }
 
 header .contenedor-textos {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin: 45px;
-	padding: 20px;
+	margin: 60px 0 35px 0;
+	padding: 10px;
 }
 
 div.contenedor-textos h1{
 	font-family: Poppins;
 	font-weight: 200;
-	font-size: 30px;
+	font-size: 35px;
 	text-align: center;
 	line-height: 40px;
 	color: hsl(234, 12%, 34%);
@@ -30,7 +31,7 @@ div.contenedor-textos h1{
 div.contenedor-textos h2 {
 	font-family: Poppins;
 	font-weight: 600;
-	font-size: 30px;
+	font-size: 35px;
 	text-align: center;
 	color: hsl(234, 12%, 34%);
 }
@@ -38,7 +39,6 @@ div.contenedor-textos h2 {
 div.contenedor-textos p {
 	font-family: Poppins;
 	font-weight: 200;
-	font-size: 15px;
 	text-align: center;
 	color: hsl(229, 6%, 66%);
 }
@@ -85,7 +85,6 @@ div.tarjetas {
 .text-cards p {
 	font-family: Poppins;
 	font-weight: 200;
-	font-size: 15px;
 	padding: 0 10px;
 	color: hsl(229, 6%, 66%);
 }
