@@ -14,7 +14,7 @@ header .contenedor-textos {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	margin: 45px;
+	margin: 50px;
 	padding: 20px;
 }
 
