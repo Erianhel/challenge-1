@@ -109,7 +109,7 @@ div#card4 {
 
 /* -----MEDIA QUERIES-----*/
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 800px) {
 
 	div.contenedor-textos {
 		text-align: center;
