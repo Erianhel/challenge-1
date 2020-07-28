@@ -23,6 +23,7 @@ div.contenedor-textos h1{
 	font-weight: 200;
 	font-size: 30px;
 	text-align: center;
+	line-height: 40px;
 	color: hsl(234, 12%, 34%);
 }
 
