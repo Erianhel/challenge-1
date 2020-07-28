@@ -104,7 +104,7 @@ div#card4 {
 	border-top: 4px solid hsl(34, 97%, 64%);
 }
 
-.attribution { font-size: 11px; text-align: center; padding: 5px; }
+.attribution { font-size: 13px; text-align: center; padding: 5px; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* -----MEDIA QUERIES-----*/
