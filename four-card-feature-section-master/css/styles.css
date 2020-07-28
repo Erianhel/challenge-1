@@ -74,10 +74,13 @@ div.tarjetas {
 	margin: 15px;
 }
 
+.text-cards {
+	margin: 15px;
+}
+
 .text-cards h2 {
 	font-family: Poppins;
 	font-weight: 600;
-	margin: 18px;
 	font-size: 20px;
 	color: hsl(234, 12%, 34%);
 }
@@ -85,7 +88,7 @@ div.tarjetas {
 .text-cards p {
 	font-family: Poppins;
 	font-weight: 200;
-	padding: 0 10px;
+	padding: 5px;
 	color: hsl(229, 6%, 66%);
 }
 
